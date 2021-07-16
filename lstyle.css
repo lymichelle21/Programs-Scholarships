@@ -1,0 +1,102 @@
+.title{
+  color: white;
+  font-size: 50px;
+  margin: 8px;
+}
+.page {
+  padding: 40px;
+  padding-left: 50px;
+  padding-bottom: 60px;
+  text-align: left;
+  background-image: linear-gradient(to bottom, #FE64A3, #F4D06F, #9DD9D2);
+}
+
+.buttons{
+  height: 30px;
+  padding-top: 15px;
+}
+
+.main{
+  background-color: #554686;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-text{
+  color: white;
+}
+
+body {
+ font-family: 'Noto Sans', sans-serif;
+  margin: 2em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.content {
+margin: 10px, auto;
+width: 400px;
+}
+
+/* Input box and submit button are in a column. I would like to vertically align them! */
+.user-input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  background: #FE64A3;
+}
+
+.name {
+  width: 300px;
+  margin: 25px auto 5px auto;
+  padding: 5px;
+  font-size: 90%;
+}
+
+.submit-btn {
+ width: 300px;
+ padding: 5px;
+ margin: 25px auto 5px auto;
+ background: #FFF8F0;
+ border: none;
+ border-radius: 2px;
+ color: #554686;
+ font-size: 100%;
+}
+
+.card-container {
+  padding: 30px;
+  color: #554686;
+  background: #F4D06F;
+}
+
+h2 {
+font-family: 'Noto Sans', sans-serif;
+font-size: 120%;
+margin-bottom: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.delete {
+  width: 40px;
+  height: 40px;
+  text-align: right;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap&family=Noto+Sans&display=swap');

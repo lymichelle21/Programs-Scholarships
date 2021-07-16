@@ -1,0 +1,114 @@
+/* CSS files add styling rules to your content */
+.technologyTitle{
+  text-decoration: underline 0.2em #FFA347;
+}
+
+.scienceTitle{
+  text-decoration: underline 0.2em #FE64A3;
+}
+
+.engineeringTitle{
+  text-decoration: underline 0.2em #F4D06F;
+}
+
+.artTitle{
+  text-decoration: underline 0.2em #FFF8F0;
+}
+
+.mathTitle{
+  text-decoration: underline 0.2em #9DD9D2;
+}
+
+.socialSciencesTitle{
+  text-decoration: underline 0.2em #554686;
+}
+
+.title{
+  color: white;
+  font-size: 50px;
+  margin: 8px;
+}
+
+.page {
+  padding: 40px;
+  padding-left: 50px;
+  padding-bottom: 60px;
+  text-align: left;
+  background-image: linear-gradient(to bottom, #FE64A3, #F4D06F, #9DD9D2);
+}
+
+.buttons{
+  height: 30px;
+  padding-top: 15px;
+}
+
+.main{
+  background-color: #554686;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-text{
+  color: white;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 2em;
+}
+
+section {
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  margin: 15px;
+  height: 10vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  width: 25%;
+  font-family: 'Noto Sans', sans-serif;
+    flex-wrap: row;
+  justify-content: flex-end;
+}
+
+.box1 {
+  background-color: #FE64A3;
+}
+
+.box2 {
+  background-color: #FFA347;
+}
+
+.box3 {
+  background-color: #F4D06F;
+}
+
+.box4 {
+  background-color: #FFF8F0;
+}
+
+.box5 {
+  background-color: #9DD9D2;
+}
+
+.box6 {
+  background-color: #554686;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap&family=Noto+Sans&display=swap');
